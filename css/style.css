@@ -4201,19 +4201,22 @@ a {
   width: 100%;
   background-color: #00a3ff;
   padding: 20px 0;
+  border-bottom: 3px solid #ff8301;
 }
 .full-width-banner .container {
   text-align: center;
 }
 .full-width-banner .container h2 {
   margin: 10px 0;
-}
-.full-width-banner h2 {
   color: white;
   font-weight: 200;
+  font-size: 1.9em;
 }
 .row {
   margin-top: 25px;
+}
+.footer {
+  clear: both;
 }
 /* Large desktop */
 @media (min-width: 1200px) {
