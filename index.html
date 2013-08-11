@@ -24,11 +24,10 @@
 			<div class="navbar-inner">
 				<div class="container">
 
-					<!-- .navbar-toggle is used as the toggle for collapsed navbar content -->
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
+					<!--.navbar-toggle is used as the toggle for collapsed navbar content-->
+					<button type="button" class="navbar-toggle btn btn-primary" data-toggle="collapse"
+									data-target=".navbar-responsive-collapse">
+						Menu
 					</button>
 
 					<!-- Be sure to leave the brand out there if you want it shown -->
@@ -36,10 +35,19 @@
 
 					<!-- Place everything within .nav-collapse to hide it until above 768px -->
 					<div class="nav-collapse collapse navbar-responsive-collapse">
-						<ul class="nav nav-pills pull-right">
+						<ul class="nav nav-pills pull-right clearfix">
 							<li class="active"><a href="#">Home</a></li>
 							<li><a href="#">About Us</a></li>
-							<li><a href="#">Services</a></li>
+							<li class="dropdown">
+								<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+									Services <span class="caret"></span>
+								</a>
+								<ul class="dropdown-menu">
+									<li><a href="#">For Collectors</a></li>
+									<li><a href="#">For Institutions</a></li>
+								</ul>
+							</li>
+
 							<li><a href="#">Publications</a></li>
 							<li><a href="#">Representative Projects</a></li>
 							<li><a href="#">Contact Us</a></li>
@@ -52,35 +60,37 @@
 
 		<div class="full-width-banner">
 			<div class="container">
-				<h2>Your trusted art advisory firm. <nobr>We’re here to help.</nobr></h2>
+				<h2>Your trusted art advisory firm.
+					<nobr>We’re here to help.</nobr>
+				</h2>
 			</div>
 		</div>
 
 		<div class="container">
 
-			<div class="jumbotron">
-				<h1>Jumbotron heading</h1>
-
-				<p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus
-					commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-
-				<p><a class="btn btn-large btn-success" href="#">Sign up today</a></p>
+			<!--<div class="jumbotron">-->
+			<div class="row">
+				<div class="col-lg-12 text-center">
+					<img src="images/art-museum.jpg" class="img-responsive img-rounded" alt="Responsive image">
+				</div>
 			</div>
+			<!--</div>-->
 
 			<div class="row marketing">
 				<div class="col-lg-6">
-					<h4>Subheading</h4>
+					<p class="lead">Art Matters Consulting is an independent advisory firm dedicated to offering strategic counsel to art
+						collectors and their heirs, donors, family groups, charitable foundations, and non-profit organizations. As
+						client vadvocates, we enhance the value and position of our clients’ collections through a variety of
+						strategic services that protect and enhance their long-term personal and charitable interests and
+						goals. </p>
+					</div>
+				<div class="col-lg-6">
 
-					<p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
+					<p class="lead">We are mindful of the challenges and opportunities presented throughout the lifecycle of a collection and
+						believe that proper planning is key to successfully building, maintaining, and sharing a collection over
+						time. We work with a variety of experts and specialists to provide comprehensive advice that is objective,
+						confidential, and always client focused.</p>
 
-					<h4>Subheading</h4>
-
-					<p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet
-						fermentum.</p>
-
-					<h4>Subheading</h4>
-
-					<p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
 				</div>
 
 				<div class="col-lg-6">

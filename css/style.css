@@ -4171,12 +4171,8 @@ a {
 }
 .header {
   top: 0;
-  height: 150px;
   background: #193170;
-  padding-top: 52px;
-}
-.header img {
-  margin-top: -30px;
+  padding: 25px 0;
 }
 .header a {
   color: white;
@@ -4195,13 +4191,16 @@ a {
   margin-bottom: 0;
 }
 .navbar-inner {
+  margin: 0;
   text-align: center;
+}
+.navbar-toggle {
+  width: auto;
 }
 .full-width-banner {
   width: 100%;
   background-color: #00a3ff;
   padding: 20px 0;
-  margin-bottom: 10px;
 }
 .full-width-banner .container {
   text-align: center;
@@ -4212,4 +4211,55 @@ a {
 .full-width-banner h2 {
   color: white;
   font-weight: 200;
+}
+.row {
+  margin-top: 25px;
+}
+/* Large desktop */
+@media (min-width: 1200px) {
+  .nav {
+    padding: 30px 0;
+  }
+}
+@media (min-width: 980px) and (max-width: 1199px) {
+  .nav {
+    padding: 30px 0;
+  }
+}
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+  .nav {
+    padding: 5px 0;
+    text-align: center;
+  }
+  .nav.pull-right {
+    float: left !important;
+  }
+}
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+  .nav {
+    padding: 5px 0;
+  }
+  .nav.pull-right {
+    float: left !important;
+    clear: both;
+    width: 100%;
+  }
+  .nav > li {
+    float: none;
+    width: 80%;
+  }
+}
+/* Landscape phones and down */
+@media (max-width: 480px) {
+  .nav.pull-right {
+    float: left !important;
+    clear: both;
+    width: 80%;
+  }
+  .nav > li {
+    float: none;
+    width: 100%;
+  }
 }
