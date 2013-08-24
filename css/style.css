@@ -5888,6 +5888,9 @@ header .nav-pills li.active > a {
   font-weight: 200;
   font-size: 1.9em;
 }
+.top-image {
+  margin: 0 auto;
+}
 /* Large desktop */
 @media (min-width: 1200px) {
   .nav {
