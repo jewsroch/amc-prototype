@@ -1,49 +1,38 @@
 // Fonts
-body, h1, h2, h3, h4, h5, p, li, a {
+body, h1, h2, h3, h4, h5, p, li, a, .lead {
   font-family: 'Lato', 'helveticaneue light', "helvetica neue light", "helvetica neue", "helvetica", sans-serif;
   font-weight: 300;
 }
 
 p, p a, {
-  font-family: 'Lora', 'times new roman', serif;
+  font-family: 'Merriweather', serif;
 }
 
 // Typography Elements
-body {
-  font-size: 16px;
-  line-height: 24px;
+
+.lead{
+//  font-size: 1.9em;
 }
 
-article {
-  max-width: 944px;
-  margin: auto;
+.btn-amc{
+  padding: 20px 60px;
+  font-weight: @font-weight-thin;
+  border: none;
 }
 
-h1 {
-  font-size: 110px;
-  line-height: 120px;
-  margin-top: 24px;
-  margin-bottom: 48px;
+.btn{
+  border:none;
+  font-weight: @font-weight-thin;
 }
 
-h2 {
-  font-size: 42px;
-  line-height: 48px;
-  margin-top: 48px;
-  margin-bottom: 24px;
+.btn-warning{
+  background-color: @orange;
 }
 
-h3 {
-  font-size: 26px;
-  line-height: 48px;
-  margin-top: 24px;
-  margin-bottom: 0px;
+.btn-info{
+  background-color: @blue-dark;
 }
 
-p, ul {
-  margin-top: 0px;
-  margin-bottom: 24px;
-}
 
 small, aside {
   font-size: 10px;
@@ -52,7 +41,7 @@ small, aside {
 // Layout Elements
 header {
   top: 0;
-  background: #193170;
+  background: @blue-dark;
   padding: 0 0 25px 0;
 }
 

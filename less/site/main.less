@@ -1,6 +1,6 @@
 // HEADER
 header a {
-  color: white;
+  color: @white;
 }
 
 header .nav-pills {
@@ -8,14 +8,15 @@ header .nav-pills {
     margin: 4px 5px 0 5px;
     a {
       padding: 7px 15px;
+      font-weight: 200;
       &:hover, &:active{
-        color: white;
+        color: @white;
       }
     }
   }
   li > a:hover, .open > a, .open > a:focus , li.active > a {
-    background-color: #00a3ff;
-    color: white;
+    background-color: @blue-light;
+    color: @white;
   }
 }
 
@@ -27,25 +28,28 @@ header .nav-pills {
 
 .full-width-banner {
   width: 100%;
-  background-color: #00a3ff;
-  padding: 20px 0;
-  border-bottom: 3px solid #ff8301;
+  background-color: @blue-light;
+  padding: 10px 0;
+  border-bottom: 3px solid @orange;
   //  margin-bottom: 25px;
   .container {
     text-align: center;
-    h2 {
-      margin: 10px 0;
-    }
   }
-  h2 {
-    color: white;
+  .lead {
+    margin: 10px 0;
+
+    color: @white;
     font-weight: 200;
-    font-size: 1.9em;
+//    font-size: 1.9em;
   }
 }
 
 .top-image{
   margin: 0 auto;
+}
+
+.panel{
+  padding: 15px;
 }
 
 // FOOTER
