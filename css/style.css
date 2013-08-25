@@ -5831,6 +5831,9 @@ header {
 .row {
   margin-top: 25px;
 }
+.no-margin {
+  margin: 0;
+}
 footer {
   clear: both;
 }
@@ -5858,19 +5861,66 @@ header .nav-pills li.active > a {
 .navbar {
   margin: 0;
 }
-.full-width-banner {
+.full-width {
   width: 100%;
-  background-color: #00a3ff;
-  padding: 10px 0;
-  border-bottom: 3px solid #ff8301;
+  margin-bottom: 5px;
 }
-.full-width-banner .container {
+.full-width-stripe {
+  background-color: #ff8301;
+  height: 20px;
+  width: 100%;
+  margin-bottom: 109px;
+}
+.full-width-image {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: -129px;
+}
+.full-width-image .container {
+  margin-top: 0;
   text-align: center;
 }
-.full-width-banner .lead {
+.full-width-image .row {
+  margin-top: 0;
+}
+.full-width-buttons {
+  margin-bottom: -65px;
+}
+.full-width-stripes-blue {
+  margin-bottom: 60px;
+}
+.banner-text {
+  padding: 10px 0;
+  border-bottom: 3px solid #ff8301;
+  background-color: #00a3ff;
+}
+.banner-text .container {
+  text-align: center;
+}
+.banner-text .lead {
   margin: 10px 0;
   color: #ffffff;
   font-weight: 200;
+}
+.orange {
+  height: 3px;
+  background-color: #ff8301;
+}
+.blue-light {
+  height: 1px;
+  margin-bottom: 5px;
+  background-color: #00a3ff;
+}
+.blue-dark {
+  height: 3px;
+  background-color: #193170;
+}
+.rounded {
+  border-radius: 5px;
+}
+.stripe {
+  background: #ff8301;
+  height: 20px;
 }
 .top-image {
   margin: 0 auto;

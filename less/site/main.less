@@ -9,12 +9,12 @@ header .nav-pills {
     a {
       padding: 7px 15px;
       font-weight: 200;
-      &:hover, &:active{
+      &:hover, &:active {
         color: @white;
       }
     }
   }
-  li > a:hover, .open > a, .open > a:focus , li.active > a {
+  li > a:hover, .open > a, .open > a:focus, li.active > a {
     background-color: @blue-light;
     color: @white;
   }
@@ -26,29 +26,84 @@ header .nav-pills {
 
 // CONTENT
 
-.full-width-banner {
+.full-width{
   width: 100%;
-  background-color: @blue-light;
+  margin-bottom: 5px;
+}
+.full-width-stripe{ // to be used with image 238px high;
+  background-color: @orange;
+  height: 20px;
+  width: 100%;
+  //@todo adjust at breakpoints!
+  margin-bottom: 109px;
+}
+
+.full-width-image {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: -129px;
+
+  .container {
+    margin-top: 0;
+    text-align: center;
+  }
+  .row{
+    margin-top: 0;
+  }
+}
+
+.full-width-buttons{
+  margin-bottom: -65px;
+}
+
+.full-width-stripes-blue{
+  margin-bottom: 60px;
+}
+
+.banner-text {
   padding: 10px 0;
   border-bottom: 3px solid @orange;
-  //  margin-bottom: 25px;
+  background-color: @blue-light;
+
   .container {
     text-align: center;
   }
   .lead {
     margin: 10px 0;
-
     color: @white;
     font-weight: 200;
-//    font-size: 1.9em;
   }
 }
 
-.top-image{
+.orange {
+  height: 3px;
+  background-color: @orange;
+}
+.blue-light {
+  height: 1px;
+  margin-bottom: 5px;
+  background-color: @blue-light;
+}
+
+.blue-dark {
+  height: 3px;
+  background-color: @blue-dark;
+}
+
+.rounded {
+  border-radius: 5px;
+}
+
+.stripe {
+  background: @orange;
+  height: 20px;
+}
+
+.top-image {
   margin: 0 auto;
 }
 
-.panel{
+.panel {
   padding: 15px;
 }
 
