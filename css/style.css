@@ -5910,16 +5910,16 @@ header .nav-pills li.active > a {
   font-weight: 200;
 }
 .orange {
-  height: 3px;
+  height: 2px;
   background-color: #ff8301;
 }
 .blue-light {
-  height: 1px;
+  height: 2px;
   margin-bottom: 5px;
   background-color: #00a3ff;
 }
 .blue-dark {
-  height: 3px;
+  height: 2px;
   background-color: #193170;
 }
 .rounded {
@@ -5935,6 +5935,16 @@ header .nav-pills li.active > a {
 }
 .panel {
   padding: 15px;
+}
+.publication h3 {
+  text-align: center;
+  color: #193170;
+  border-bottom: #ff8301 2px solid;
+  padding-bottom: 10px;
+  line-height: 1.4em;
+}
+.publication img {
+  box-shadow: #dddddd 0px 1px 5px 2px;
 }
 /* Large desktop */
 @media (min-width: 1200px) {
@@ -5968,6 +5978,12 @@ header .nav-pills li.active > a {
   .full-width-image {
     margin-bottom: -108px;
   }
+  .publication h3 {
+    font-size: 1.5em;
+  }
+  .publication dl {
+    margin-left: 10px;
+  }
 }
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
@@ -5994,6 +6010,12 @@ header .nav-pills li.active > a {
   }
   .full-width-buttons {
     margin-bottom: 0;
+  }
+  .publication h3 {
+    font-size: 1.4em;
+  }
+  .publication dl {
+    margin-left: 10px;
   }
 }
 /* Landscape phones and down */
