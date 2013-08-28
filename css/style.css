@@ -5805,7 +5805,8 @@ p a {
   font-family: 'Merriweather', serif;
 }
 .btn-amc {
-  padding: 20px 60px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   font-weight: 200;
   border: none;
 }
@@ -5863,6 +5864,9 @@ header .nav-pills li.active > a {
 }
 .navbar {
   margin: 0;
+}
+.navbar-brand {
+  padding-left: 0;
 }
 .full-width {
   width: 100%;
@@ -5985,6 +5989,12 @@ header .nav-pills li.active > a {
   .full-width-image {
     margin-bottom: 0;
   }
+  .full-width-stripes-blue {
+    margin-bottom: 0;
+  }
+  .full-width-buttons {
+    margin-bottom: 0;
+  }
 }
 /* Landscape phones and down */
 @media (max-width: 480px) {
@@ -5996,5 +6006,11 @@ header .nav-pills li.active > a {
   .nav > li {
     float: none;
     width: 100%;
+  }
+  .full-width-stripes-blue {
+    margin-bottom: 0;
+  }
+  .full-width-buttons {
+    margin-bottom: 0;
   }
 }
