@@ -5851,6 +5851,9 @@ header .nav-pills li a:hover,
 header .nav-pills li a:active {
   color: #ffffff;
 }
+header .nav-pills li:last-child {
+  margin-right: 0;
+}
 header .nav-pills li > a:hover,
 header .nav-pills .open > a,
 header .nav-pills .open > a:focus,
@@ -5869,12 +5872,12 @@ header .nav-pills li.active > a {
   background-color: #ff8301;
   height: 20px;
   width: 100%;
-  margin-bottom: 109px;
+  margin-bottom: 137px;
 }
 .full-width-image {
   width: 100%;
   margin-top: 20px;
-  margin-bottom: -129px;
+  margin-bottom: -157px;
 }
 .full-width-image .container {
   margin-top: 0;
@@ -5923,7 +5926,8 @@ header .nav-pills li.active > a {
   height: 20px;
 }
 .top-image {
-  margin: 0 auto;
+  width: 100%;
+  margin: 15px auto;
 }
 .panel {
   padding: 15px;
@@ -5938,6 +5942,12 @@ header .nav-pills li.active > a {
   .nav {
     padding: 30px 0;
   }
+  .full-width-stripe {
+    margin-bottom: 114px;
+  }
+  .full-width-image {
+    margin-bottom: -134px;
+  }
 }
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 979px) {
@@ -5947,6 +5957,12 @@ header .nav-pills li.active > a {
   }
   .nav.pull-right {
     float: left !important;
+  }
+  .full-width-stripe {
+    margin-bottom: 88px;
+  }
+  .full-width-image {
+    margin-bottom: -108px;
   }
 }
 /* Landscape phone to portrait tablet */
@@ -5962,6 +5978,12 @@ header .nav-pills li.active > a {
   .nav > li {
     float: none;
     width: 80%;
+  }
+  .full-width-stripe {
+    margin-bottom: 0;
+  }
+  .full-width-image {
+    margin-bottom: 0;
   }
 }
 /* Landscape phones and down */
