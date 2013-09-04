@@ -3,9 +3,19 @@ header a, {
   color: @white;
 }
 
+.nav-pills > li + li {
+  margin: 5px 2.5%;
+}
+
+header .logo {
+  margin: 20px auto 10px;
+  text-align: center;
+}
+
 header .nav-pills {
+
   li {
-    margin: 4px 5px 0 5px;
+    float: left;
     a {
       padding: 7px 15px;
       font-weight: 200;
@@ -14,9 +24,10 @@ header .nav-pills {
       }
     }
     &:last-child{
-      margin-right: 0;
+//      margin-right: 0;
     }
   }
+
   li > a:hover, .open > a, .open > a:focus, li.active > a, .open > a:hover{
     background-color: @blue-light;
     color: @white;
@@ -53,6 +64,7 @@ li.dropdown a:hover, li.dropdown a:active{
 
 .navbar {
   margin: 0;
+  padding: 0;
 }
 .navbar-brand{
   padding-left: 0;
@@ -142,19 +154,30 @@ li.dropdown a:hover, li.dropdown a:active{
   padding: 15px;
 }
 
+.well {
+  background-color: #fafafa;
+}
+
 // Publication block:
 .publication {
+  a {
+    text-decoration: none;
+    color: @blue-dark;
+    &:hover{
+      color: @blue-dark;
+    }
+  }
   h3{
     text-align: center;
     color: @blue-dark;
     border-bottom: @orange 2px solid;
     padding-bottom: 10px;
     line-height: 1.4em;
-//    margin-left: 75px;
-//    text-shadow: 0px 1px 2px #dddddd;
   }
   img {
     box-shadow: #dddddd 0px 1px 5px 2px;
+//    max-width: 252px;
+    margin: 0 auto 20px;
   }
 }
 
