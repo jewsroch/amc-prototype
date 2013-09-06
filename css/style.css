@@ -5858,7 +5858,7 @@ footer .footer-icon a {
 footer .footer-icon a:hover,
 footer .footer-icon a:active {
   text-decoration: none;
-  color: #dddddd;
+  color: #eeeeee;
 }
 footer ul {
   margin-bottom: 0;
@@ -5873,7 +5873,7 @@ footer .footer-nav a {
 footer .footer-nav a:hover,
 footer .footer-nav a:active {
   text-decoration: none;
-  color: #dddddd;
+  color: #eeeeee;
 }
 header a {
   color: #ffffff;
@@ -6121,6 +6121,13 @@ li.dropdown a:active .caret {
   }
   .full-width-buttons {
     margin-bottom: 0;
+  }
+  footer .footer-icon {
+    text-align: center;
+    margin: 15px 0;
+  }
+  footer .footer-nav {
+    margin-bottom: 15px;
   }
 }
 /* Portrait tablet to landscape and desktop */
